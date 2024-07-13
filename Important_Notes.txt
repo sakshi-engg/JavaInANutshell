@@ -1,0 +1,51 @@
+Just In Time Compiler :  Compiles Code Dynamically
+
+Javac  : Convert the source code into the byte code
+
+String : Whenever we want to pass any value through the "main()" 
+method it will convert the value of any datatype into string of an array. 
+
+jdk - import java.lang.*; : automatically jdk imports this class
+
+what is "out" in System.out.println() - 
+This is an instance of PrintStream type, which is a public and static member field of the System class. 
+
+Package is a collection of pre-defined -
+classes - Example: applet, awt, new, lang, util, net, io ;
+Methods - Example - "println(), void(), getPriority(), setPriority() "
+Exceptions - Example : DateTimeException, ThreadException, I­O­Exception, E­O­F­Exception, File­Not­Found­Exception 
+Enums - Example : DayOfWeek , Month
+Interfaces - Example : Runnable, Collection, Queue, Deque, Map, List, SortedMap
+Constants - Example : JVM_CONSTANT_Integer = 3
+Errors - Example : ServiceConfigurationError
+
+Food Order Management System
+Menu
+Do you want to Order anything else? - if Yes (Enter the desired dish) - if No - You ordered - 
+Display Bill
+
+Display Bill Contains
+Numbers
+Items
+Quantity
+Price
+Rate 
+Amount
+
+Stages to Upload on GH:
+echo "# JavaPhile" >> README.md
+git init
+git add README.md
+git commit -m "first commit" (To upload the updated files & folders use )
+git branch -M main
+git remote add origin https://github.com/sakshi-engg/JavaPhile.git
+git push -u origin main
+
+git status - (Track status)
+
+Changes
+
+git config --global --list
+git config user.email "email"
+git config user.name "Your name"
+git config --list
