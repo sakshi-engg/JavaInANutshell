@@ -1,0 +1,6 @@
+Abstract keyword includes both implemented & non-implemented methods
+ hence don't provide 100% abstractin.
+
+Interface (till java v 1.8) - includes only implemented methods.
+-> Functional Interface : Interface that contains only 1 method
+Ex. Runnable Interface contains only run();
